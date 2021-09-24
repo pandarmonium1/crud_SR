@@ -52,7 +52,7 @@ export class GameFormComponent implements OnInit {
       )
   }
 
-/*  updateGame() {
+ updateGame() {
     this.gameService.updateGame(this.game.id, this.game)
       .subscribe(
         res => { 
@@ -61,5 +61,5 @@ export class GameFormComponent implements OnInit {
         },
         err => console.error(err)
       )
-  }*/
+  }
 }
